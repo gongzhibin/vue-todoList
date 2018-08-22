@@ -26,7 +26,7 @@
         },
         methods: {
             addTodoItem() {
-                if (this.todoInput) {
+                if (this.todoInput.trim()) {
                     this.todoList.push({
                         'text': this.todoInput,
                         'isCompleted': false
