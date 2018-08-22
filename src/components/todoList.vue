@@ -8,6 +8,10 @@
         <div v-for="(todoItem,index) in todoList" :key="index" class="show-todo">
             <todo-item :todoList="todoList" :todoItem="todoItem" :index="index"></todo-item>
         </div>
+        <footer class="footer">
+            <p>Double click to edit your todo</p>
+            <p>Written by zxlg</p>
+        </footer>
     </div>
 </template>
 <script>
@@ -46,7 +50,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin: 20px 0 ;
+        margin: 30px 0 ;
     }
     .form-control{
         width: 100%;
@@ -122,8 +126,10 @@
         border-color: #ac2925;
     }
 
-    .show-todo {
-        
+    .footer {
+        color: #aaa;
+        font-size: 12px;
+        margin-top: 70px;
     }
 }
 

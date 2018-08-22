@@ -106,11 +106,13 @@
         align-items: baseline;
         font-size: 16px;
         padding:5px 10px; 
-        border-bottom: 1px solid #bbb;
+        border-bottom: 1px solid #ddd;
         margin-right: 10px;
 
         .show-text{
+            width: 100%;
             height: 24px;
+            text-align: left;
             padding: 6px 12px;
             font-size: 16px;
             line-height: 1.42857143;
@@ -145,10 +147,10 @@
     }
 }
 .grayIndex{
-    color: #888;
+    color: #aaa;
 }
 .todo-item-completed{
     text-decoration: line-through;
-    color: #888;
+    color: #aaa;
 }
 </style>
