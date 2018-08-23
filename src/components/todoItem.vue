@@ -72,7 +72,6 @@
                 this.todoItem.isCompleted = !this.todoItem.isCompleted;
             },
             deleteTodoItem() {
-                console.log(this.index);
                 this.todoList.splice(this.index, 1);
             },
             editTodoItem() {
@@ -94,12 +93,13 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
     margin: 10px 0;
 
     .item-content{
         width: 100%;
         min-width: 400px;
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -111,17 +111,16 @@
 
         .show-text{
             width: 100%;
-            height: 24px;
+            height: 100%;
             text-align: left;
-            padding: 6px 12px;
             font-size: 16px;
             line-height: 1.42857143;
+            margin: 6px 12px;
         }
     }
     .input-edit-item{
         width: 100%;
-        height: 24px;
-        padding: 6px 12px;
+        padding: 5px 11px;
         font-size: 16px;
         line-height: 1.42857143;
         color: #555;
