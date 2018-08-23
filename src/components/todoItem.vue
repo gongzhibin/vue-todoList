@@ -98,7 +98,7 @@
 
     .item-content{
         width: 100%;
-        min-width: 400px;
+        min-width: 375px;
         height: 100%;
         display: flex;
         flex-direction: row;

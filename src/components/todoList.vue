@@ -44,7 +44,9 @@
 <style lang="less">
 .todo-list{
     width: 50%;
+    min-width: 750px;
     margin: 0 auto;
+    padding: 0 10px;
 
     .add-todo{
         display: flex;
@@ -54,7 +56,7 @@
     }
     .form-control{
         width: 100%;
-        min-width: 400px;
+        min-width: 375px;
         height: 34px;
         padding: 6px 12px;
         font-size: 16px;
@@ -129,7 +131,7 @@
     .footer {
         color: #aaa;
         font-size: 12px;
-        margin-top: 70px;
+        margin-top: 100px;
     }
 }
 
